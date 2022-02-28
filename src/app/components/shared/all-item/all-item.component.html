@@ -1,0 +1,8 @@
+<div class=" d-flex align-items-center flex-column">
+    <div *ngFor="let avatar of $avatarList | async" class="card my-4" style="width: 25rem;">
+        <h2 class="text-center py-2">{{avatar.title}}</h2>
+        <app-avatar [imageUrl]="avatar.imageUrl" [headline]="avatar.headline" [tagline]="avatar.tagline"
+            [subtext]="avatar.subtext" [avatarRadius]="avatar.avatarRadius">
+        </app-avatar>
+    </div>
+</div>

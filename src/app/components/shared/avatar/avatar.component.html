@@ -1,0 +1,20 @@
+<div class="avatar-container shadow ">
+    <div class="avatar-img-wrapper mx-1" *ngIf="imageUrl && !imageUrlExists">
+        <img #imgContainer [class.border-radius-full]="avatarRadius === 'round'"
+            [class.border-radius-semi]="avatarRadius === 'semi'" class="avatar-img" src="{{imageUrl}}"
+            (error)="onErrorInImage()" />
+    </div>
+    <div class="avatar-background" [class.border-radius-full]="avatarRadius === 'round'"
+        [class.border-radius-semi]="avatarRadius === 'semi'"
+        *ngIf="!imageUrl && headline || imageUrlExists && headline ">
+        <div>
+            <span>{{headline.split('')[0].toUpperCase()}}</span>
+        </div>
+    </div>
+
+    <div class="avatar-text-wrapper" *ngIf="headline || imageUrl && !imageUrlExists">
+        <h4 *ngIf="headline" class="headline">{{headline}}</h4>
+        <p *ngIf="tagline" class="tagline">{{tagline}}</p>
+        <p *ngIf="subtext" class="subtext">{{subtext}}</p>
+    </div>
+</div>

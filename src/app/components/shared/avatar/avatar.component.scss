@@ -1,0 +1,28 @@
+.avatar-container {
+    display: flex;
+    align-items: center;
+    .avatar-img-wrapper {
+        .avatar-img {
+            height: 100px;
+            width: 100px;
+        }
+    }
+    .avatar-background {
+        height: 100px;
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: black;
+        color: #fff;
+    }
+    .avatar-text-wrapper {
+        padding-left: 15px;
+    }
+    .border-radius-full {
+        border-radius: 100px;
+    }
+    .border-radius-semi {
+        border-radius: 12px;
+    }
+}

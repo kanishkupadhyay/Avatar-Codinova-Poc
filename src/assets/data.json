@@ -1,0 +1,65 @@
+
+   [
+    {
+      "title": "Avatar with image",
+      "imageUrl": "https://st3.depositphotos.com/1037987/15097/i/600/depositphotos_150975580-stock-photo-portrait-of-businesswoman-in-office.jpg",
+      "headline": "John Doe",
+      "tagline": "Software Developer",
+      "subtext": "lorem iopsum djndne snwn",
+      "avatarRadius": "round"
+    },
+    {
+      "title": "Avatar without image",
+      "headline": "Kanishk Upadhyay",
+      "tagline": "Software Developer",
+      "subtext": "lorem iopsum djndne snwn",
+      "avatarRadius": "round"
+    },
+    {
+      "title": "Avatar without passing border",
+      "imageUrl": "https://st3.depositphotos.com/1037987/15097/i/600/depositphotos_150975580-stock-photo-portrait-of-businesswoman-in-office.jpg",
+      "headline": "John Doe",
+      "tagline": "Software Developer",
+      "subtext": "lorem iopsum djndne snwn"
+    },
+    {
+      "title": "Avatar with square border",
+      "imageUrl": "https://st3.depositphotos.com/1037987/15097/i/600/depositphotos_150975580-stock-photo-portrait-of-businesswoman-in-office.jpg",
+      "headline": "John Doe",
+      "tagline": "Software Developer",
+      "subtext": "lorem iopsum djndne snwn",
+      "avatarRadius": "semi"
+    },
+    {
+      "title": "Avatar without passing anything"
+    },
+    {
+      "title": "Avatar with wrong image url",
+      "imageUrl": "wkdwdjkejd",
+      "headline": "John Doe",
+      "tagline": "Software Engineer",
+      "subtext": "Developer",
+      "avatarRadius": "semi"
+    },
+    {
+      "title": "Avatar without passing headline",
+      "imageUrl": "https://st3.depositphotos.com/1037987/15097/i/600/depositphotos_150975580-stock-photo-portrait-of-businesswoman-in-office.jpg",
+      "tagline": "John Doe",
+      "subtext": "Python",
+      "avatarRadius": "round"
+    },
+    {
+      "title": "Avatar without passing tagline",
+      "imageUrl": "https://st3.depositphotos.com/1037987/15097/i/600/depositphotos_150975580-stock-photo-portrait-of-businesswoman-in-office.jpg",
+      "headline": "John Doe",
+      "subtext": "Python",
+      "avatarRadius": "round"
+    },
+    {
+      "title": "Avatar without passing subtext",
+      "imageUrl": "https://st3.depositphotos.com/1037987/15097/i/600/depositphotos_150975580-stock-photo-portrait-of-businesswoman-in-office.jpg",
+      "headline": "John Doe",
+      "tagline": "Python",
+      "avatarRadius": "none"
+    }
+  ]
